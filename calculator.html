@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telegram Login page</title>
+    <link rel="stylesheet" href="./calculator.css">
+</head>
+<body>
+   <div class="fonetemplate">
+        <div class="icon-bar">
+            <div class="menu-bar">
+                <img class="timer" src="https://www.pngkey.com/png/full/78-789344_digital-clock-background-digital-clock-icon-white.png" alt="">
+                <img src="https://cdn0.iconfinder.com/data/icons/global-top-brands/90/whatsapp-logo-256.png" alt="">
+                <img src="https://cdn0.iconfinder.com/data/icons/social-network-flat-4/512/telegram_icon-256.png" alt="">
+                <img src="https://cdn1.iconfinder.com/data/icons/brands-3/512/fi-brands-facebook-256.png" alt="">
+                <img src="https://cdn1.iconfinder.com/data/icons/sketching-10/50/480-256.png" alt="">
+            </div>
+            <div class="menu-bar2">
+                <img src="https://cdn0.iconfinder.com/data/icons/user-interface-2352/512/fi-br-alarm-plus-256.png" alt="">
+                <img src="https://cdn4.iconfinder.com/data/icons/zoldo-miscellaneous-003/64/full_signal_network-256.png" alt="">
+    
+                <img src="https://cdn3.iconfinder.com/data/icons/business-finance-vol-3-16/512/3-2-256.png" alt="">
+            </div>
+        </div>
+        <h3 class="unlock">Unlock to use telegram</h3>
+        <div class="enter">
+            <p>Enter your current PIN&#46;</p>
+            <img class="tele1" src="./tele1-removebg-preview.png" alt="">
+        </div>
+        <input class="textbox js-text" id="output" type="text">
+        <div class="cancel">
+            <p onclick="cancelDisplay();">Cancel</p>
+            <p class="next">Next</p>
+        </div>
+        <div class="button">
+                    <div class="itmes js-btn1 itmes2" onclick="addNumber(1);">1<span></span></div>
+                    <div class="itmes js-btn2" onclick="addNumber(2);">2<span>ABC</span></div>
+                    <div class="itmes js-btn3" onclick="addNumber(3);">3<span>DEF</span></div>
+                    <div class="itmes js-btn4" onclick="addNumber(4);">4<span>GHI</span></div>
+                    <div class="itmes js-btn5" onclick="addNumber(5);">5<span>JKL</span></div>
+                    <div class="itmes js-btn6" onclick="addNumber(6);">6<span>MNO</span></div>
+                    <div class="itmes js-btn7" onclick="addNumber(7);">7<span>PQRS</span></div>
+                    <div class="itmes js-btn8" onclick="addNumber(8);">8<span>TUV</span></div>
+                    <div class="itmes js-btn9" onclick="addNumber(9);">9<span>WXYZ</span></div>
+                    <div class="itmes itmes1 js-btn10" onclick="clearDisplay();"><img src="./cancel-removebg-preview.png" alt=""><span></span></div>
+                    <div class="itmes itmes2 js-btn11" onclick="addNumber(0);">0<span></span></div>
+                    <div class="itmes itmes1 js-btn12" onclick="submitPin();">Done <span></span></div>
+         </div>
+           
+
+    </div>
+       
+    <script src="./calculator.js"></script>
+</body>
+</html>
